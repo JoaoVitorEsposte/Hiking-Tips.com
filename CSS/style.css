@@ -1,0 +1,23 @@
+.total-content {
+	width: 100%;
+	height: auto;
+}
+
+.header, .main {
+	position: relative;
+	margin: 0 auto;
+	width: 70%;
+	height: 500px;
+}
+
+.header header {
+
+}
+
+.header img {
+	width: 100%;
+}
+
+.header h1 {
+	font-size: 2em;
+}
