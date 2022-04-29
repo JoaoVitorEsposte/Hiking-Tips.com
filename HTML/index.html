@@ -11,51 +11,46 @@
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div class="total-content">
-			<section class="header">
-				<header>
-					<img src=".\..\IMG\bkg-header.png">
-					<section class="titulo-subtitulo">
-						<h1>Hiking Tips</h1>
-						<h2>Here you'll find the best tips and tricks for your favourite activity</h2>
+		<div class="main-content">
+			<header>
+				<img src=".\..\IMG\bkg-header.png">
+				<section class="titulo-subtitulo">
+					<h1>Hiking Tips</h1>
+					<h2>Here you'll find the best tips and tricks for your favourite activity</h2>
+				</section>
+			</header>
+
+			<main class="index">
+				<section class="why-hike">
+					<img class="img-adjust" src=".\..\IMG\adventure-hiking.png">
+					<section class="img-hike-text">
+						<h2>Free yourself to do incredible things</h2>
+						<p>Explore Nature's full potential by hiking, and you'll enjoy doing it with our best gears</p>
 					</section>
-				</header>
-			</section>
+				</section>
 
-			<section class="main">
-				<main>
-					<section class="why-hike">
-						<img class="img-adjust" src=".\..\IMG\adventure-hiking.png">
-						<section class="img-hike-text">
-							<h2>Free yourself to do incredible things</h2>
-							<p>Explore Nature's full potential by hiking, and you'll enjoy doing it with our best gears</p>
-						</section>
+				<section class="why-hike">
+					<img class="img-adjust" src=".\..\IMG\kids-hiking.png">
+					<section class="img-hike-text">
+						<h2>Have you ever brought your kids to hike with you?</h2>
+						<p>Some may think their kids are too tech addicted for this sport, but the fact is that children love natural environments. <em>Try show them some photos from your walks.</em></p>
 					</section>
+				</section>
 
-					<section class="why-hike">
-						<img class="img-adjust" src=".\..\IMG\kids-hiking.png">
-						<section class="img-hike-text">
-							<h2>Have you ever brought your kids to hike with you?</h2>
-							<p>Some may think their kids are too tech addicted for this sport, but the fact is that children love natural environments. <em>Try show them some photos from your walks.</em></p>
-						</section>
+				<section class="why-hike">
+					<img class="img-adjust" src=".\..\IMG\see-good-places.png">
+					<section class="img-hike-text">
+						<h2>Last but not least...</h2>
+						<p>You're going to have a great time while gazing some beautiful landscapes, rivers and lakes.</p>
 					</section>
+				</section>
+			</main>
 
-					<section class="why-hike">
-						<img class="img-adjust" src=".\..\IMG\see-good-places.png">
-						<section class="img-hike-text">
-							<h2>Last but not least, you're going to have a great time while gazing some beautiful landscapes, rivers and lakes.</h2>
-						</section>
-					</section>
-				</main>
-			</section>
-
-			<section class="weather">
-				<h2>Take a look at the Weather</h2>
-				<div class="API-Integration">
-					
-				</div>
-			</section>
-
+			<div class="weather" id="weather">
+				<input readonly id="description">
+				<input readonly id="temp">
+				<input readonly id="location">
+			</div>
 		</div>
 		<script type="text/javascript" src=".\..\JAVASCRIPT\main.js"></script>
 	</body>
