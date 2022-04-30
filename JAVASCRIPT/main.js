@@ -30,6 +30,6 @@ function drawWeather( d ) {
   var fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32); 
   
   document.getElementById('description').value = d.weather[0].description;
-  document.getElementById('temp').value = celcius + ' C';
+  document.getElementById('temp').value = celcius + ' C°';
   document.getElementById('location').value = d.name;
 }

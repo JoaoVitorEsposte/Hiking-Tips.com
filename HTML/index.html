@@ -51,17 +51,25 @@
 				</section>
 			</main>
 
-			<form>
-				<label for="">Give the name of the city you want:</label>
-				<input type="text" id="city-name" name="" required>
-				<input type="submit" reload id="submit-city-name" name="city-search" value="Submit City Name">
-			</form>
+			<section data-aos="fade-up" data-aos-duration="700" class="check-weather">
+				<h2 class="title-weather">Check the Weather before you go Hiking</h2>
+				<form class="form-weather">
+					<label for="">Give the name of the city you want:</label>
+					<input type="text" id="city-name" name="" required><br>
+					<div class="alt-submit">
+						<input class="submit" type="submit" id="submit-city-name" name="city-search" value="Submit City Name">
+					</div>
 
-			<div class="weather" id="weather">
-				<input readonly id="description">
-				<input readonly id="temp">
-				<input readonly id="location">
-			</div>
+
+					<!--<input class="submit" type="submit" id="submit-city-name" name="city-search" value="Submit City Name">-->
+				</form>
+
+				<div class="weather-info" id="weather">
+					<input readonly id="description">
+					<input readonly id="temp">
+					<input readonly id="location">
+				</div>
+			</section>
 		</div>
 		<script type="text/javascript" src=".\..\JAVASCRIPT\main.js"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
