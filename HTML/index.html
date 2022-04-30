@@ -3,18 +3,23 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hiking Tips</title>
+
+		<!--Reset CSS & Style-->
 		<link rel="stylesheet" type="text/css" href=".\..\CSS\reset.css">
 		<link rel="stylesheet" type="text/css" href=".\..\CSS\style.css">
 		<link rel="icon" type="image/png" href=".\..\IMG\icon.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+
+		<!--AOS-->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="main-content">
 			<header>
 				<img src=".\..\IMG\bkg-header.png">
-				<section class="titulo-subtitulo">
+				<section data-aos="fade-down" data-aos-duration="1000" class="titulo-subtitulo">
 					<h1>Hiking Tips</h1>
 					<h2>Here you'll find the best tips and tricks for your favourite activity</h2>
 				</section>
@@ -22,29 +27,35 @@
 
 			<main class="index">
 				<section class="why-hike">
-					<img class="img-adjust" src=".\..\IMG\adventure-hiking.png">
-					<section class="img-hike-text">
+					<img data-aos="fade-right" data-aos-duration="1000" class="img-adjust" src=".\..\IMG\adventure-hiking.png">
+					<section data-aos="fade-left" data-aos-duration="1000" class="img-hike-text">
 						<h2>Free yourself to do incredible things</h2>
 						<p>Explore Nature's full potential by hiking, and you'll enjoy doing it with our best gears</p>
 					</section>
 				</section>
 
 				<section class="why-hike">
-					<img class="img-adjust" src=".\..\IMG\kids-hiking.png">
-					<section class="img-hike-text">
+					<img data-aos="fade-right" data-aos-duration="1000" class="img-adjust" src=".\..\IMG\kids-hiking.png">
+					<section data-aos="fade-left" data-aos-duration="1000" class="img-hike-text">
 						<h2>Have you ever brought your kids to hike with you?</h2>
 						<p>Some may think their kids are too tech addicted for this sport, but the fact is that children love natural environments. <em>Try show them some photos from your walks.</em></p>
 					</section>
 				</section>
 
 				<section class="why-hike">
-					<img class="img-adjust" src=".\..\IMG\see-good-places.png">
-					<section class="img-hike-text">
+					<img data-aos="fade-right" data-aos-duration="1000" class="img-adjust" src=".\..\IMG\see-good-places.png">
+					<section data-aos="fade-left" data-aos-duration="1000" class="img-hike-text">
 						<h2>Last but not least...</h2>
 						<p>You're going to have a great time while gazing some beautiful landscapes, rivers and lakes.</p>
 					</section>
 				</section>
 			</main>
+
+			<form>
+				<label for="">Give the name of the city you want:</label>
+				<input type="text" id="city-name" name="" required>
+				<input type="submit" reload id="submit-city-name" name="city-search" value="Submit City Name">
+			</form>
 
 			<div class="weather" id="weather">
 				<input readonly id="description">
@@ -53,5 +64,9 @@
 			</div>
 		</div>
 		<script type="text/javascript" src=".\..\JAVASCRIPT\main.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+		  	AOS.init();
+		</script>
 	</body>
 </html>
