@@ -13,5 +13,3 @@ A última parte do site contém uma integração com a API do OpenWeatherMap, qu
 conteúdo como o código do site foram exclusivamente escritos em inglês para me desafiar e deixar o código mais profissional.
 
 Este projeto só foi possível graças à colaboração da Roberta Amaro, ela que me indicou como utilizar a API do OpenWeatherMap. Muito obrigado, Roberta!
-
-Segue vídeo do resultado:
